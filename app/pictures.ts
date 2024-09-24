@@ -83,11 +83,6 @@ const pictures: Picture[] = [
     orientation: "vertical",
     position: { x: 5 + 0 * gap, y: 20 + 1 * gap },
   },
-  // {
-  //   url: "IMG_20210523_214832.jpg",
-  //   orientation: "vertical",
-  //   position: { x: 0 + 0 * gap, y: 0 + 0 * gap },
-  // },
   {
     url: "IMG_20210619_222145.jpg",
     orientation: "vertical",
@@ -168,11 +163,6 @@ const pictures: Picture[] = [
     orientation: "vertical",
     position: { x: 25 + 2 * gap, y: 55 + 4 * gap },
   },
-  // {
-  //   url: "IMG_20231023_220740.jpg",
-  //   orientation: "vertical",
-  //   position: { x: 0 + 0 * gap, y: 0 + 0 * gap },
-  // },
   {
     url: "IMG_20231118_221722.jpg",
     orientation: "vertical",
@@ -187,6 +177,111 @@ const pictures: Picture[] = [
     url: "IMG-20170330-WA0000.jpg",
     orientation: "horizontal",
     position: { x: 95 + 8 * gap, y: 70 + 5 * gap },
+  },
+  {
+    url: "IMG-20220122-WA0008.jpg",
+    orientation: "vertical",
+    position: { x: 35 + 3 * gap, y: 45 + 3 * gap },
+  },
+  {
+    url: "IMG-20221030-WA0019.jpg",
+    orientation: "horizontal",
+    position: { x: 160 + 13 * gap, y: 10 + 0 * gap },
+  },
+  {
+    url: "IMG-20230702-WA0009.jpg",
+    orientation: "horizontal",
+    position: { x: 125 + 10 * gap, y: 30 + 2 * gap },
+  },
+  {
+    url: "IMG-20230702-WA0016.jpg",
+    orientation: "vertical",
+    position: { x: 140 + 11 * gap, y: 0 + 0 * gap },
+  },
+  {
+    url: "IMG-20230708-WA0003.jpg",
+    orientation: "vertical",
+    position: { x: 65 + 5 * gap, y: 15 + 1 * gap },
+  },
+  {
+    url: "IMG-20230929-WA0003.jpg",
+    orientation: "vertical",
+    position: { x: 25 + 2 * gap, y: 5 + 0 * gap },
+  },
+  {
+    url: "IMG-20231008-WA0001.jpg",
+    orientation: "horizontal",
+    position: { x: 60 + 5 * gap, y: 5 + 0 * gap },
+  },
+  {
+    url: "IMG-20231008-WA0002.jpg",
+    orientation: "horizontal",
+    position: { x: 110 + 9 * gap, y: 20 + 1 * gap },
+  },
+  {
+    url: "IMG-20231010-WA0000.jpg",
+    orientation: "horizontal",
+    position: { x: 85 + 7 * gap, y: 30 + 2 * gap },
+  },
+  {
+    url: "IMG-20231022-WA0004.jpg",
+    orientation: "vertical",
+    position: { x: 15 + 1 * gap, y: 15 + 1 * gap },
+  },
+  {
+    url: "IMG-20231026-WA0001.jpg",
+    orientation: "horizontal",
+    position: { x: 10 + 1 * gap, y: 55 + 4 * gap },
+  },
+  {
+    url: "IMG-20231027-WA0024.jpg",
+    orientation: "horizontal",
+    position: { x: 85 + 7 * gap, y: 80 + 6 * gap },
+  },
+  {
+    url: "IMG-20231028-WA0000.jpg",
+    orientation: "horizontal",
+    position: { x: 95 + 8 * gap, y: 45 + 3 * gap },
+  },
+  {
+    url: "IMG-20231104-WA0017.jpg",
+    orientation: "vertical",
+    position: { x: 100 + 8 * gap, y: 20 + 1 * gap },
+  },
+  {
+    url: "IMG-20231109-WA0004.jpg",
+    orientation: "horizontal",
+    position: { x: 60 + 5 * gap, y: 70 + 5 * gap },
+  },
+  {
+    url: "IMG-20231114-WA0016.jpg",
+    orientation: "horizontal",
+    position: { x: 0 + 0 * gap, y: 35 + 2 * gap },
+  },
+  {
+    url: "IMG-20231127-WA0038.jpg",
+    orientation: "horizontal",
+    position: { x: 35 + 3 * gap, y: 35 + 2 * gap },
+  },
+  {
+    url: "PXL_20220909_142553829.jpg",
+    orientation: "horizontal",
+    position: { x: 50 + 4 * gap, y: 20 + 1 * gap },
+  },
+  {
+    url: "PXL_20220909_214624040.jpg",
+    orientation: "horizontal",
+    position: { x: 35 + 3 * gap, y: 60 + 4 * gap },
+  },
+  {
+    url: "PXL_20220910_155507131.jpg",
+    orientation: "vertical",
+    position: { x: 50 + 4 * gap, y: 30 + 2 * gap },
+  },
+  {
+    url: "PXL_20230805_132247059.MP.jpg",
+    orientation: "horizontal",
+    position: { x: 150 + 12 * gap, y: 20 + 1 * gap },
   },
   // {
   //   url: "public",
