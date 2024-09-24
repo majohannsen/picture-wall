@@ -9,14 +9,13 @@ export default function Home() {
     <div className="bg-slate-400">
       <TransformWrapper>
         <TransformComponent>
-          <div className="h-screen w-screen scale-50 -translate-x-1/4 -translate-y-1/4 relative">
+          <div className="h-screen w-screen m-4 scale-50 -translate-x-1/4 -translate-y-1/4 relative">
             {pictures.map((p) => (
               <div
                 key={p.url}
                 className="absolute"
                 style={{ top: p.position.y * 16, left: p.position.x * 16 }}
               >
-                {p.position.x}, {p.position.y}
                 <div
                   className={classNames("relative", {
                     "w-40 aspect-[2/3]": p.orientation === "vertical",
