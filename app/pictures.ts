@@ -5,8 +5,9 @@ interface Picture {
     x: number;
     y: number;
   };
+  description?: string;
 }
-const gap = 1;
+const gap = 1.5;
 const pictures: Picture[] = [
   {
     url: "20210711_132226.jpg",
@@ -72,16 +73,19 @@ const pictures: Picture[] = [
     url: "IMG_2402.JPG",
     orientation: "vertical",
     position: { x: 15 + 1 * gap, y: 30 + 2 * gap },
+    description: "19.7.2021 - Burano",
   },
   {
     url: "IMG_2409.JPG",
     orientation: "vertical",
     position: { x: 140 + 11 * gap, y: 25 + 2 * gap },
+    description: "19.7.2021 - Burano",
   },
   {
     url: "IMG_20210404_124224.jpg",
     orientation: "vertical",
     position: { x: 5 + 0 * gap, y: 20 + 1 * gap },
+    description: "4.4.2021 - Ostern, bei Lochau",
   },
   {
     url: "IMG_20210619_222145.jpg",
@@ -132,6 +136,7 @@ const pictures: Picture[] = [
     url: "IMG_20230805_225441957.jpg",
     orientation: "vertical",
     position: { x: 75 + 6 * gap, y: 5 + 0 * gap },
+    description: "5.8.2023 - Szene",
   },
   {
     url: "IMG_20230815_195142857.jpg",
@@ -167,11 +172,13 @@ const pictures: Picture[] = [
     url: "IMG_20231118_221722.jpg",
     orientation: "vertical",
     position: { x: 25 + 2 * gap, y: 30 + 2 * gap },
+    description: "18.11.2023 - Soufs Geburtstag in ihrer alten Wohnung",
   },
   {
     url: "IMG_20231118_221727.jpg",
     orientation: "vertical",
     position: { x: 90 + 7 * gap, y: 15 + 1 * gap },
+    description: "18.11.2023 - Soufs Geburtstag in ihrer alten Wohnung",
   },
   {
     url: "IMG-20170330-WA0000.jpg",
@@ -257,6 +264,7 @@ const pictures: Picture[] = [
     url: "IMG-20231114-WA0016.jpg",
     orientation: "horizontal",
     position: { x: 0 + 0 * gap, y: 35 + 2 * gap },
+    description: "14.11.2023 - Thalia Wien Mahü",
   },
   {
     url: "IMG-20231127-WA0038.jpg",
@@ -282,6 +290,7 @@ const pictures: Picture[] = [
     url: "PXL_20230805_132247059.MP.jpg",
     orientation: "horizontal",
     position: { x: 150 + 12 * gap, y: 20 + 1 * gap },
+    description: "5.8.2023 - Szene",
   },
   // {
   //   url: "public",
