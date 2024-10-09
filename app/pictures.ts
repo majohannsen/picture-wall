@@ -292,6 +292,31 @@ const pictures: Picture[] = [
     position: { x: 150 + 12 * gap, y: 20 + 1 * gap },
     description: "5.8.2023 - Szene",
   },
+  {
+    url: "WhatsApp Image 2024-10-09 at 19.03.04.jpeg",
+    orientation: "vertical",
+    position: { x: 65 + 5 * gap, y: 55 + 4 * gap },
+  },
+  {
+    url: "WhatsApp Image 2024-10-09 at 19.03.32.jpeg",
+    orientation: "horizontal",
+    position: { x: 85 + 7 * gap, y: 55 + 4 * gap },
+  },
+  {
+    url: "WhatsApp Image 2024-10-09 at 19.04.33.jpeg",
+    orientation: "vertical",
+    position: { x: 75 + 6 * gap, y: 30 + 2 * gap },
+  },
+  {
+    url: "WhatsApp Image 2024-10-09 at 19.07.20.jpeg",
+    orientation: "vertical",
+    position: { x: 85 + 7 * gap, y: 65 + 5 * gap },
+  },
+  {
+    url: "WhatsApp Image 2024-10-09 at 19.07.42.jpeg",
+    orientation: "vertical",
+    position: { x: 85 + 7 * gap, y: 40 + 3 * gap },
+  },
   // {
   //   url: "public",
   //   orientation: "vertical",
